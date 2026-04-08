@@ -86,7 +86,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sauravjangid-2004/devsync-ai
+git clone https://github.com/sauravjangid-2004/DevAI_Collab
 cd devsync-ai
 ```
 
@@ -342,6 +342,6 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-Built with ❤️ by [sauravjangid-2004](https://github.com/sauravjangid-2004/devsync-ai)
+Built with ❤️ by [sauravjangid-2004](https://github.com/sauravjangid-2004/DevAI_Collab)
 
 </div>

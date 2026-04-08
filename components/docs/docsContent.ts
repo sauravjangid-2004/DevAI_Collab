@@ -1,4 +1,4 @@
-export const repoUrl = 'https://github.com/aman-kumar-27d/devsync-ai.git';
+export const repoUrl = 'https://github.com/sauravjangid-2004/DevAI_Collab';
 
 export const platformFeatures = [
     {
