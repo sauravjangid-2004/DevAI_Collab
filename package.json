@@ -1,0 +1,45 @@
+{
+  "name": "devcollab-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "qa:api-regression": "powershell -ExecutionPolicy Bypass -File scripts/qa/api-regression.ps1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@monaco-editor/react": "^4.7.0",
+    "@types/formidable": "^3.5.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/uuid": "^10.0.0",
+    "bcryptjs": "^3.0.3",
+    "formidable": "^3.5.4",
+    "highlight.js": "^11.11.1",
+    "ioredis": "^5.10.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "next": "14.2.35",
+    "next-themes": "^0.4.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.6.0",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^20.19.37",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "cross-env": "^10.1.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

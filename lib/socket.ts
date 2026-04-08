@@ -1,0 +1,24 @@
+'use client';
+
+import { io, Socket } from 'socket.io-client';
+
+let socket: Socket | null = null;
+
+export function getSocket(): Socket {
+    if (!socket) {
+        socket = io({
+            // Match server.js Socket.IO endpoint (default path)
+            path: '/socket.io',
+            addTrailingSlash: false,
+            autoConnect: false,
+        });
+    }
+    return socket;
+}
+
+export function disconnectSocket() {
+    if (socket) {
+        socket.disconnect();
+        socket = null;
+    }
+}
